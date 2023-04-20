@@ -1,0 +1,69 @@
+div.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr;
+    grid-template-areas: "header header header header"
+                         "main   main   .      sidebar"
+                         "footer footer footer copyright";
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+div.item-a {
+    grid-area: header;
+}
+
+div.item-b {
+    grid-area: main;
+}
+
+div.item-c {
+    grid-area: sidebar;
+}
+
+div.item-d {
+    grid-area: footer;
+}
+
+div.item-e {
+    grid-area: copyright;
+}
+
+
+
+
+
+/* Below this line is not related to the grid */
+#grid-example {
+    width: 75%;
+    height: 50%;
+    background-color: gray;
+    margin: auto;
+    top: 50px;
+    position: relative;
+}
+
+.box {
+    background-color: darkgrey;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: blue;
+}
+
+.item {
+    padding: 5px;
+    margin: 10px;
+}
+

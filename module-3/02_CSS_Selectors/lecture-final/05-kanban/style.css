@@ -1,0 +1,139 @@
+html {
+    height: 100%;
+    font-size: 16px;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #858c90, #bbb);
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    white-space: nowrap;
+}
+
+#trello-board div.trello-list {
+    display: inline-block;
+    width: 300px;
+    background-color: #ddd;
+    border-radius: 2px 3px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+#trello-board div.trello-list h2 {
+    margin: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#trello-board div.trello-list ol {
+    padding: 0;
+    margin: 0;
+}
+
+#trello-board div.trello-list ol li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: rgb(255,255,255);
+    font-size: 0.9rem;
+    border-radius: 1px;
+    white-space: normal;
+}
+
+#trello-board div.trello-list ol li:hover {
+    background-color: #f5f6f7;
+    color: #f309f3;
+    font-weight: 600;
+}
+
+#trello-board div.trello-list ol li:last-child {
+    margin-bottom: 0px;
+}
+
+#trello-board div.trello-list a {
+    display: block;
+    text-decoration: none;
+    color: #888;
+    padding: 8px 0px 8px 5px;  /* top right bottom left */
+    font-size: 0.85rem;
+}
+
+#trello-board div.trello-list a:hover {
+    background-color: rgba(9, 45, 66, 0.1);
+}
+
+div.labels span.label {
+    display: inline-block;
+    width: 35px;
+    height: 8px;
+    border-radius: 3px;
+    vertical-align: top;
+}
+
+div.labels span.label.general {
+    background-color: orange;
+}
+
+div.labels span.label.pathway {
+    background-color: red;
+}
+
+div.labels span.label.pair {
+    background-color: teal;
+}
+
+div.labels span.label.individual {
+    background-color: green;
+}
+
+header > h1,
+header > p {
+    display: inline-block;
+    height: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.8);
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+header > h1 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+header > p {
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+}
+
+main  {
+    margin-top: 50px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: darkslategray;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: greenyellow;
+}

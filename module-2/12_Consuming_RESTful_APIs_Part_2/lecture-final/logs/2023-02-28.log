@@ -1,0 +1,2 @@
+2023-02-28T10:52:48.5995164 404 : Not Found
+2023-02-28T10:53:53.7267858 I/O error on GET request for "http://localhost:3000/hotel": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect

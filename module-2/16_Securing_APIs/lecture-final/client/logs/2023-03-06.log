@@ -1,0 +1,1 @@
+2023-03-06T11:08:38.4889437 401 : [{"timestamp":"2023-03-06T16:08:38.457+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/hotels/1/reservations"}]

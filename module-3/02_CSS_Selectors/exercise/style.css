@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; /* remember VH is viewport height*/
+  width: 200px;
+  border-right: 1px solid rgba(0, 173, 238, 0.4);
+}
+
+aside img { /* maintains ratio with height:auto. display block treats it as a block-level element. allows for margin 0 auto method. 
+  once again, advantage of doing homework after learning the lesson a while ago lol*/
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  margin-left: 200px;
+}
+
+aside nav ul li {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 173, 238, 0.4);
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 8px;
+}
+
+aside nav ul li a {
+  font-weight: bold;
+  color: #00ADEE;
+  text-decoration: none;
+}
+
+aside nav ul li:first-child a {
+  text-decoration: underline;
+}

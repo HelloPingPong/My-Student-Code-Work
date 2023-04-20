@@ -1,0 +1,40 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+} 
+#canvas {
+    background-color: lightblue;
+}
+
+.border {
+    outline: 5px darkorchid dotted;
+}
+
+.noborder {
+    border: none;
+}
+
+#cursorPosition {
+    font-size: 1.2rem;
+    height: 20px;
+}
+
+#container button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#container input[type=color] {
+    display: inline-block;
+}
+
+#container div.directions {
+    font-size: 1.2rem;
+}
